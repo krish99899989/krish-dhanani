@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  int x=56;
+  int y=32;
+
+  //normal operator
+  cout<<x+y<<endl;
+  cout<<x-y<<endl;
+  cout<<x/y<<endl;
+  cout<<x*y<<endl;
+           
+  /*Always write comparision operator write in parenthisis*/    
+  cout<<(x==y)<<endl;
+  cout<<(x<y)<<endl;
+  cout<<(x>y)<<endl;
+  cout<<(x<=y)<<endl;
+  cout<<(x>=y)<<endl;
+  cout<<(x!=y)<<endl;
+
+  //logical operator
+  cout<< (x>54 && y<31) <<endl;
+  cout<< (x>=56 || y<=31)<<endl;
+  cout<< !(x>=56 || y<=31)<<endl;
+  return 0;
+}
